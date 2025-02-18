@@ -7,7 +7,7 @@
 #SBATCH --cpus-per-task=8
 #SBATCH --mem=64G
 #SBATCH --export=NONE
-#SBATCH --array=192-480%10 #1-191 already done! 
+#SBATCH --array=182-189  
 #SBATCH --job-name=Trim_align_and_filter_alignments
 #SBATCH --output=%x_%A-%a.out
 #SBATCH --error=%x_%A-%a.err
